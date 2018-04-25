@@ -1,6 +1,9 @@
 .header{display: flex;
+        justify-content: space-between;
         font-family: verdana;
         font-size: 14px;
         font-weight: bold;}
 
-.logo{display: block;}
+.logo {display: flex;}
+
+nav li{display: inline-block;}
