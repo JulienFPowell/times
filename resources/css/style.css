@@ -44,29 +44,49 @@ header nav {padding-right: 40px;}
   position: relative;
   top: 80px;
   flex-wrap: wrap;
-  margin: 0 auto 78px auto;
+  margin: 0px auto 78px auto;
+  padding-top: 16px;
 }
 
 .left{
   width: 630px;
   border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.party{
+  display: flex;
+  background-image: url("../images/party.png");
+  text-align: left;
   flex-wrap: wrap;
-  position: relative;
-  top: 30px;
+  height: 100%;
+}
+
+.trees{
+  display: flex;
+  background-image: url("../images/trees.png");
+  background-repeat: repeat;
+  height: 100%;
+
+}
+
+.container{
+  height: 300px;
 }
 
 .center{
   width: 300px;
   border: solid 1px black;
-  position: relative;
-  top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .right{
   width: 240px;
   border: solid 1px black;
-  position: relative;
-  top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -84,8 +104,13 @@ h3{
 }
 
 .heading{
+  display: flex;
   border: solid 1px black;
   margin: 0;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .fbi, .bites{
