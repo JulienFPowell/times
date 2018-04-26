@@ -17,6 +17,7 @@ header {
   font-family: "Verdana", sans-serif;
   font-size: 14px;
   font-weight: bold;
+  margin: 0;
 }
 
 .logo {
@@ -24,6 +25,7 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+  border: solid 1px black;
 }
 
 .logo img {
@@ -38,11 +40,54 @@ header nav {padding-right: 40px;}
 
 .content{
   display: flex;
+  border: solid 1px black;
+  position: relative;
+  top: 80px;
+  flex-wrap: wrap;
+  margin: 0 auto 78px auto;
 }
 
 .left{
   width: 630px;
-  border: solid 5px black;
-  z-index: 5;
+  border: solid 2px black;
   flex-wrap: wrap;
+  position: relative;
+  top: 30px;
+}
+
+.center{
+  width: 300px;
+  border: solid 1px black;
+  position: relative;
+  top: 30px;
+}
+
+.right{
+  width: 240px;
+  border: solid 1px black;
+  position: relative;
+  top: 30px;
+}
+
+
+h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.orca{
+  border: solid 2px black;
+}
+
+.burger{
+  border: solid 2px black;
+}
+
+.heading{
+  border: solid 1px black;
+  margin: 0;
+}
+
+.fbi, .bites{
+  border: solid 1px black;
 }
